@@ -1,0 +1,29 @@
+{
+	"title" : "开发平台",
+	"language" : "zh-hans",
+	"author" : "hedj",
+	"description" : "软件开发平台，服务于公司开发人员。",
+	"styles": {
+        "website": "./styles/website.css"
+    },
+	"plugins": [
+		"splitter",
+		"expandable-chapters-small",
+		"-sharing",
+		"-lunr","-search","search-pro",
+		"anchor-navigation-ex",
+		"local-video",
+		"redirect",
+		"edit-link"
+	],
+	"pluginsConfig": {
+        "anchor-navigation-ex": {
+            "showLevel": false
+		},
+		"edit-link": {
+			"base": "http://10.114.72.58:4000",
+			"label": "下载"
+		  }
+    }
+	
+}
