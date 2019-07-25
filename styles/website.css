@@ -1,0 +1,12 @@
+.book-summary ul.summary li.header {
+    text-transform: none;
+}
+ul.summary li.header {
+    background-color: Gainsboro;
+    padding: 5px !important;
+}
+
+.video-js {
+    width:100%;
+    height:100%;
+}
